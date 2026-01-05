@@ -18,4 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 Packages:
 
-Tailwind.css
+- Tailwind.css
+- Tailwind-merge
+- Lucide-react
+- React-router-dom

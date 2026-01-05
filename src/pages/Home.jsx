@@ -1,4 +1,16 @@
 export const Home = () => {
 
-  return <div>Home Page!!!!!!</div>;
+  return <div>
+
+    {/* Theme Toggle */}
+
+    {/* Background Effects */}
+
+    {/* Navbar  */}
+
+    {/* Main Content */}
+
+    {/* Footer */}
+
+  </div>;
 };

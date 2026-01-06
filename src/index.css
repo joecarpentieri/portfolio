@@ -83,6 +83,19 @@
 
     --border: 217 33% 20%;
   }
+
+  * {
+    @apply border-border; /* applies border to everything in base with colour we created */
+  }
+
+  html {
+    @apply smooth-scroll; /* smooth scroll for whole html doc - smooth animation scrolling down when click */
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
 }
 
 /* Creating utility classes - classes for applying tailwind css */
@@ -138,4 +151,11 @@
 @utility meteor { /* for meteor */
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0; /* don't want space on sides */
+  text-align: center;
 }

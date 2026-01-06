@@ -33,8 +33,8 @@ export const AboutSection = () => {
                 <Code className="h-6 w-6 primary text-primary"/>
               </div>
               <div className="text-left">
-                <h4> Web Development</h4>
-                <p></p>
+                <h4 className="font-semibold text-lg"> Web Development</h4>
+                <p className="text-muted-foreground"> Create web applications using React and Spring Boot.</p>
               </div>
             </div>
           </div>
@@ -44,6 +44,10 @@ export const AboutSection = () => {
               <div className="p-3 rounded-full bg-primary/10">
                 <User className="h-6 w-6 primary text-primary"/>
               </div>
+              <div className="text-left">
+                <h4 className="font-semibold text-lg"> UI/UX Design</h4>
+                <p className="text-muted-foreground"> Making applications that are aesthetic for maximum user retention and engagement.</p>
+              </div>
             </div>
           </div>
             
@@ -51,6 +55,10 @@ export const AboutSection = () => {
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-full bg-primary/10">
                 <Briefcase className="h-6 w-6 primary text-primary"/>
+              </div>
+              <div className="text-left">
+                <h4 className="font-semibold text-lg"> Agile Working</h4>
+                <p className="text-muted-foreground"> Working within teams using agile methodology to structure working.</p>
               </div>
             </div>
           </div>

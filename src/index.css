@@ -44,19 +44,19 @@
       transform: translateY(0);
     }
   }
-  @keyframes meteor { /* Meteor goes down in screen in diagonal manner */
+  @keyframes meteor {
     0% {
-      transform: rotate(215deg) translateX(-500px);
-      opacity: 1;
+      transform: translate(0, 0) rotate(45deg);
+      opacity: 0;
     }
-    70% {
+    10% {
       opacity: 1;
     }
     100% {
-      transform: rotate(215deg) translateX(-500px);
+      transform: translate(600px, 600px) rotate(45deg);
       opacity: 0;
     }
-  }
+  }  
 }
 /* Defining colours for base layer */
 @layer base {

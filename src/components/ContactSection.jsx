@@ -44,7 +44,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium"> Email</h4>
-                  <a href="mailto:email@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">email@gmail.com</a>
+                  <a href="mailto:joecarpentieri1@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">joecarpentieri1@gmail.com</a>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium"> Phone</h4>
-                  <a href="tel:+11234567890" className="text-muted-foreground hover:text-primary transition-colors">+1 (123) 456-7890</a>
+                  <a href="tel:+11234567890" className="text-muted-foreground hover:text-primary transition-colors">+44 7545 856608</a>
                 </div>
               </div>
             

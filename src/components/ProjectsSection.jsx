@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["Spring Boot", "Java"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/joecarpentieri/BNTA_BackendProject_GratitudeJournal",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["React", "HTML", "CSS", "JavaScript"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/joecarpentieri/chatroom_group1",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["Spring Boot", "Java", "React", "HTML", "CSS", "JavaScript"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/joecarpentieri/BNTA_CapstoneProject",
   },
 ]
 
@@ -52,7 +52,7 @@ export const ProjectsSection = () => {
             <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
             <div className="flex justify-between items-center">
               <div className="flex space-x-3">
-                <a href={project.demoUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"><ExternalLink size={20}/></a>
+                {/* <a href={project.demoUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"><ExternalLink size={20}/></a> */}
                 <a href={project.githubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"><Github size={20}/></a>
               </div>
             </div>

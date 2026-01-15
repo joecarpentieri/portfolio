@@ -1,4 +1,6 @@
-const projects = [
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
+
+const otherProjects = [
   {
     id: 1,
     title: "Python AI Robot Agents",
@@ -10,31 +12,31 @@ const projects = [
   },
   {
     id: 2,
-    title: "Frontend Chatroom",
-    description: "A Java backend server that serves the backend for a gratitude journal, using Spring Boot.",
+    title: "Augmented Reality Treasure Hunt",
+    description: "A Unity Augmented Reality phone application that allows for a guided treasure hunt in Abington Park, Northampton.",
     image: "/projects/project2.png",
-    tags: ["React", "HTML", "CSS", "JavaScript"],
+    tags: ["Unity", "C#"],
     demoUrl: "#",
-    githubUrl: "https://github.com/joecarpentieri/chatroom_group1",
+    githubUrl: "#",
   },
   {
     id: 3,
-    title: "Fullstack E-commerce Site",
-    description: "A Java backend server that serves the backend for a gratitude journal, using Spring Boot.",
+    title: "Pygame Card Game",
+    description: "A Pygame card game that can be played against a computer opponent",
     image: "/projects/project3.png",
-    tags: ["Spring Boot", "Java", "React", "HTML", "CSS", "JavaScript"],
+    tags: ["Python", "Pygame"],
     demoUrl: "#",
-    githubUrl: "https://github.com/joecarpentieri/BNTA_CapstoneProject",
+    githubUrl: "https://github.com/joecarpentieri/group_project_programming",
   },
 ]
 
 export const OtherProjectsSection = () => {
-  return  <section id="projects" className="py-24 px-4 relative">
+  return  <section id="otherProjects" className="py-24 px-4 relative">
     <div className="container mx-auto max-w-5xl">
-      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Featured <span className="text-primary"> Projects </span></h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Other <span className="text-primary"> Projects </span></h2>
       <p className="text-center text-muted foreground-color mb-12 max-w-2xl mx-auto">Here are some of my other projects, displaying work in various applications.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project, key) => (
+        {otherProjects.map((project, key) => (
           <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
             <div className="h-48 overflow-hidden">
               <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
@@ -46,7 +48,7 @@ export const OtherProjectsSection = () => {
                 ))}
               </div>
             
-            <h3 className="text-xl" font-semibold mb-1-> {project.title}</h3>
+            <h3 className="text-xl" font-semibold mb-1> {project.title}</h3>
             <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
             <div className="flex justify-between items-center">
               <div className="flex space-x-3">

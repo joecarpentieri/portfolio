@@ -13,7 +13,7 @@ const otherProjects = [
   {
     id: 2,
     title: "Augmented Reality Treasure Hunt",
-    description: "A Unity Augmented Reality phone application that allows for a guided treasure hunt in Abington Park, Northampton.",
+    description: "A Unity Augmented Reality phone application that allows for a guided treasure hunt in Abington Park, Northampton. Unity project available on request.",
     image: "/projects/project5.png",
     tags: ["Unity", "C#"],
     demoUrl: "#",
@@ -22,7 +22,7 @@ const otherProjects = [
   {
     id: 3,
     title: "Pygame Card Game",
-    description: "A Pygame card game that can be played against a computer opponent",
+    description: "A Pygame card game that can be played against a computer opponent.",
     image: "/projects/project6.png",
     tags: ["Python", "Pygame"],
     demoUrl: "#",

@@ -14,7 +14,7 @@ const otherProjects = [
     id: 2,
     title: "Augmented Reality Treasure Hunt",
     description: "A Unity Augmented Reality phone application that allows for a guided treasure hunt in Abington Park, Northampton.",
-    image: "/projects/project2.png",
+    image: "/projects/picture4.png",
     tags: ["Unity", "C#"],
     demoUrl: "#",
     githubUrl: "#",
